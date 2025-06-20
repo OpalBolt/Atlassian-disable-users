@@ -1,0 +1,15 @@
+# Logs
+disable_log.txt
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Personal credentials
+.env
+*_token*
+
+# Temporary files
+*.tmp
+*~
