@@ -38,7 +38,7 @@ if [ ! -f "$GROUPS_CSV" ]; then
 fi
 
 # Create or clear log file
-> "$LOG_FILE"
+: > "$LOG_FILE"
 echo "$(date): Starting group removal process" | tee -a "$LOG_FILE"
 echo "----------------------------------------" | tee -a "$LOG_FILE"
 
